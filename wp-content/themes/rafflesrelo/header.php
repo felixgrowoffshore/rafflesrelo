@@ -31,12 +31,11 @@
     <![endif]-->
 	<?php wp_head(); ?>
   </head>
-  
-  <body>
 
+  <body>
     <nav class="navbar navbar-main">
       <div class="container">
-	  
+
 	   <span style="  color: #fff;  float: left;
     padding: 13px;
     color: #fff;"><a style="color: #fff;margin-right:20px;" href="http://growoffshore.com/rafflesrelo/personal-relocation/">Personal Relocation</a>    <a style="color: #fff;margin-right:20px;" href="http://growoffshore.com/rafflesrelo/corporate-relocation/">Corporate Relocation</a>    <a style="color: #fff;margin-right:20px;" href="http://growoffshore.com/rafflesrelo/storage/">Storage</a></span>
@@ -46,7 +45,7 @@
     <img src="<?php bloginfo('template_url'); ?>/assets/phone.png"> <a href="tel:1800 686 6860" style="color:#fff;">1800 686 6860</a> &nbsp;&nbsp;&nbsp;
     <img src="<?php bloginfo('template_url'); ?>/assets/phone.png"> <a href="tel:+65 6894 3720" style="color:#fff;">+65 6894 3720</a> &nbsp;&nbsp;&nbsp;
     <img src="<?php bloginfo('template_url'); ?>/assets/mail.png"> <a href="mailto:cs@rafflesrelo.com" style="color:#fff;">cs@rafflesrelo.com</a></span>
-        
+
       </div>
     </nav>
 	  <nav class="navbar navbar-main-menu">
@@ -65,7 +64,7 @@
 												<?php wp_nav_menu(array('menu'=>'Main Menu', 'container'=>'', 'items_wrap'=>'%3$s'));?>
 										</ul>
         </div><!--/.nav-collapse -->
-		
-		
+
+
       </div>
     </nav>
