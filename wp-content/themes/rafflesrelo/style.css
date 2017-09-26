@@ -14,7 +14,7 @@ h1 {
     font-weight: bold;
 
 }
-a:hover, 
+a:hover,
 a:focus {
     color: #fbba00;
     text-decoration: underline;
@@ -156,7 +156,7 @@ img.ri-logo {
     text-align: center;
     font-size: 12px;
     margin-bottom: 15px;
-   
+
 }
 
 .custom-boxes img {
@@ -260,7 +260,7 @@ width: 100%;
     font-size: 11px;
     letter-spacing: 1px;
     font-weight: 100;
-    
+
 }
 @media (max-width: 991px) {
   .footer.copyright p{
@@ -287,7 +287,7 @@ width: 100%;
     .custom-boxes img{
 	     max-width: 235px;
     }
-    
+
 }
 
 /* use fade instead of slide */
@@ -384,10 +384,14 @@ width: 100%;
     text-transform: uppercase;
     padding: 10px 0;
 }
-.footer-q-links a {
+.footer a {
     color: #fff;
 }
-
+.starter-template a {
+    color: #008136;
+    font-weight: 600;
+    text-decoration: underline;
+}
 .splashItems a,
 .splashItems a:hover {
     color: #000;
@@ -405,7 +409,7 @@ span.introbox-header a {
 }
 
 span.introbox-header a:hover {
-    color: #008c44; 
+    color: #008c44;
     text-decoration: none;
 }
 
@@ -703,7 +707,7 @@ div.wpcf7 .wpcf7-form-control {
     max-width: 100%;
 }
 /* Make Contact Form 7 Select Dropdown field responsive & full width */
-.wpcf7 select { 
+.wpcf7 select {
     border-radius: 3px;
     margin: 0;
     padding: 4px;
@@ -805,9 +809,7 @@ div.wpcf7 .wpcf7-form-control {
   padding-left : 20px;
 }
 .check-list li a{
-  color : #000;
   font-style: italic;
-  text-decoration: underline;
 }
 
 .wpcf7-form label{

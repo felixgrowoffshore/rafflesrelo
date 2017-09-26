@@ -245,7 +245,7 @@ function grid_boxes_func(  ){
                     <a href='$page_url'>
                     <img class='alignnone' src='$page_src[url]' />
                     </a>
-                    $title
+                    <p style='margin:0;'>$title</p>
                 </div>";
   }
   $display .= "</div>";
